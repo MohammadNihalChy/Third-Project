@@ -1,0 +1,461 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #ffffff;
+}
+header div{
+    float: left;
+}
+header .logo{
+       margin-left: 95px;
+       padding:20px ;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    margin-top: 15px;
+
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color:rgb(41, 41, 41) ;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+    margin-top: -10px;
+}
+#check{
+    display: none;
+}
+/*section one start*/
+.section1{
+   background-color:#f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1 .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 125px;
+    margin-top: 10px;
+}
+.half2{
+    margin-right: 180px;
+    margin-top: 75px;
+}
+.half1 h3{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight:lighter;
+    margin-bottom: 5px;
+}
+.half1 h1{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+.half1 p{
+    color: #777777;
+    font-size: 15px;
+}
+.half1 button{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: #8393ff ;
+    border: 1px solid #8393ff;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+.half1 button:hover{
+    box-shadow: 5px 10px 30px #8393ff;
+    transition: all ease-in 0.5s 0.1s;
+    outline: none;
+}
+/*section1 end*/
+/*section2 start*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 100%;
+    height: auto;
+
+}
+.section2 .img2{
+    margin-left: 110px;
+}
+.text2{
+    width: 100%;
+}
+.text2 h4{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+.text2 p{
+    color: #777777;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    font-weight:-50;
+    font-size: 15px;
+    line-height: 22px;
+}
+.text2 button{
+    background-color: #8393ff ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 33px;
+    cursor: pointer;
+    outline: none;
+}
+.text2 button:hover{
+    box-shadow: 1px 3px 25px #8393ff;
+    transition: all ease-in 0.5s;
+}
+.section3{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 20px;
+}
+.firsttext p{
+    color: #777777;
+    width: 670px;
+    margin: 0 auto;
+}
+.Services{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 0;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 7px;
+    margin: 0 auto;
+}
+.Services i{
+    font-size: 30px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.Services h1{
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 20px;
+}
+.Services p{
+    color: rgb(0,0,0,0.5);
+    letter-spacing: 0.5px;
+}
+.ser1 div:hover{
+     background-color: #8393ff;
+}
+.ser1 div:hover h1{
+    color: #ffffff;
+}
+.ser1 div:hover i{
+    color: #ffffff;
+}
+.ser1 div:hover p{
+    color: #ffffff;
+}
+.ser2 div:hover{
+    background-color: #8393ff;
+}
+.ser2 div:hover h1{
+    color: #ffffff;
+}
+.ser2 div:hover i{
+    color: #ffffff;
+}
+.ser2 div:hover p{
+    color: #ffffff;
+}
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: #8393ff;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    left: 220px;
+    line-height: 10px;
+}
+.section4 div h1{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.section4 div p{
+    color: #ffffff;
+}
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+}
+.section5 .text3 h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0, 0.9);
+}
+.section5 .text3 p{
+    color: rgb(0,0,0,0.5);
+    margin-top: 25px;
+}
+.section5 .imgg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.section5 .imgg div{
+    width: 310px;
+    height: 309px;
+    padding-bottom: 143px;
+    padding-right: 20px;
+    text-align: center;
+}
+.section5 .imgg h1{
+     font-size: 18px;
+     font-weight: bold;
+}
+.section5 p{
+    font-size: 15px;
+    color: rgb(0, 0, 0,0.5);
+    line-height: 0;
+}
+.section5 figure{
+    align-items: center;
+    background: linear-gradient(40deg,#8393ff 40%,#62bdfc 100%);
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+    border-radius:3%;
+}
+
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all ease-in-out 0.5s;
+}
+/*Portfolio table start*/
+.section6{
+  width: 100%;
+    height: 700px;
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text4 h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+.section6 .text4 p{
+    margin-top: -20px;
+    color: #777777;
+    letter-spacing: 0px;
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(249, 249, 255);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.section6 .card1 h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.section6 .card1 .price{
+    font-size: 30px;
+    font-weight: normal;
+}
+.section6 .card1 button{
+    background-color: #8393ff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 100px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+.section6 .card1:hover{
+    background-color: #8393ff;
+    color: white;
+    transition: all ease-in 0.25s;
+    transform: scale(1.1);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.section6 .card1:hover button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0, 0.9);
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #04091e;
+    color: #fff;
+    position: absolute;
+}
+.foot{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.foot1{
+    width: 45%;
+
+}
+.foot1 h3{
+     font-weight: 300;
+     padding: 15px 0;
+}
+.foot1 p{
+    color: #777777;
+    font-weight: normal;
+}
+.foot1 p span a{
+    text-decoration: none;
+    color: #8490ff;
+}
+.foot2 h3{
+    padding: 15px 0;
+    font-weight: 300;
+}
+.foot2 p{
+    color: #777777;
+}
+.foot2 input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+}
+.foot2 button{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    background-color: #8393ff;
+  cursor: pointer;
+}
+.foot3 h3{
+    font-weight: 300;
+    padding: 15px 0;
+}
+.foot3 p{
+    color: #777777;
+}
+.foot3 i{
+    padding: 8px;
+}
+.foot3 i:hover{
+    color: #8393ff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/*Portfolio table end*/
+@media (max-width:768px)
+    header {
+    width: 100%;
+    height: auto;
+}
+  header .logo{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  header .nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F9FF;
+    top: 54px;
+    left: -200%;
+    transition: all 0.1s;
+  }
+  header .nav ul li{
+    clear: both;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  #check:checked ~ul{
+    left: 0;
+  }
